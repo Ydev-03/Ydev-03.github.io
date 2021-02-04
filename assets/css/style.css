@@ -1,9 +1,4 @@
-/**
-* Template Name: Appland - v2.2.0
-* Template URL: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -25,7 +20,30 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+.preload {
+ position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(255,255,255);
+  transition: 1s 0.4s;
+}
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.vertical_center {
+      margin: 0;
+    position: absolute;
+    top: 35%;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
