@@ -1,9 +1,18 @@
-/**
-* Template Name: Appland - v2.2.0
-* Template URL: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+var $progressBar = $('.progress-bar');
+$progressBar.css('width', '30%');
+
+             var $progress = $('.progress');
+var $progressBar = $('.progress-bar');
+$progressBar.css('width', '30%');
+setTimeout(function() {
+       $progressBar.css('width', '60%');
+        $progress.css('display', 'none');
+     $(window).on("load", function() {
+       $progressBar.css('width', '100%');
+          $('.preload').fadeOut();
+     })
+},500)
+
 !(function($) {
   "use strict";
 
