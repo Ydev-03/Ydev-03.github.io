@@ -6,14 +6,14 @@ var $progressBar = $('.progress-bar');
 $progressBar.css('width', '30%');
 setTimeout(function() {
        $progressBar.css('width', '60%');
-        $progress.css('display', 'none');
-     $(window).on("load", function() {
+        
+  
+},500)
+   $(window).on("load", function() {
        $progressBar.css('width', '100%');
-       alert("Work in progress")
+       $progress.css('display', 'none');
           $('.preload').fadeOut();
      })
-},500)
-
 !(function($) {
   "use strict";
 
