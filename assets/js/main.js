@@ -9,6 +9,7 @@ setTimeout(function() {
         $progress.css('display', 'none');
      $(window).on("load", function() {
        $progressBar.css('width', '100%');
+       alert("Work in progress")
           $('.preload').fadeOut();
      })
 },500)
